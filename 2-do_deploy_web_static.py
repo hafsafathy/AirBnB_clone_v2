@@ -7,13 +7,13 @@ from datetime import datetime
 from fabric.api import *
 import os
 
-env.hosts = ["52.204.230.184", "100.25.133.148"]
+env.hosts = ['52.204.230.184','18.207.140.52']
 env.user = "ubuntu"
 
 
 def do_pack():
     """
-    Returns False if the file at the path archive_path isnot exist
+    Returns False if the file at the path archive_path isnot exists
     """
 
     local("mkdir -p versions")
