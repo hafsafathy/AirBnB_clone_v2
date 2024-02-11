@@ -5,11 +5,11 @@ import time
 from fabric.api import local
 from fabric.operations import env, put, run
 
-env.hosts = ['44.210.150.159', '35.173.47.15']
+env.hosts = ["52.204.230.184", "100.25.133.148"]
 
 
 def do_pack():
-    """do pack"""
+    """do packs"""
     try:
         local("mkdir -p versions")
         local("tar -cvzf versions/web_static_{}.tgz web_static/".
