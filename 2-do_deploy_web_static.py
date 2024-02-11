@@ -13,7 +13,7 @@ env.user = "ubuntu"
 
 def do_pack():
     """
-    Returns False if the file at the path archive_path doesnot exist
+    Returns False if the file at the path archive_path isnot exist
     """
 
     local("mkdir -p versions")
