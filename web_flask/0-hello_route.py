@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.url_map.strict_slashes = False
 
 
-@app.route('/airbnb-onepage')
+@app.route('/airbnb-onepage/')
 def hello_hbnb():
     """print web"""
     return 'Hello HBNB!'
